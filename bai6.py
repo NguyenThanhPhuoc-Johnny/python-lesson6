@@ -18,3 +18,9 @@ if ans == 'A':
 else:
 	print("wrong")
 	break
+
+pass = input("Enter password: ")
+if pass == "python":
+	print("hello")
+else
+	break
