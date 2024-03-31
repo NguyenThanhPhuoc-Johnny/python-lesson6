@@ -10,7 +10,11 @@ if ans == 'A':
 	ans1 = str(input("Who invented python? A. Guido van Rossum, B. Dennis Ritchie, C. James Gosling, D. Bjarne Strousturp: "))
 	if ans1 == 'A':
 		print("correct")
-        ans2 = str(input("Which statement in ython is used to output something onto the screen? "))
+        	ans2 = str(input("Which statement in python is used to output something onto the screen? A. print(), B. Count >>, C. def(), D. input() "))
+		if ans2 == 'A':
+			print("correct")
+		else: 
+			print("wrong")
 	else:
 		print("wrong")
 		break
@@ -20,7 +24,9 @@ else:
 	break
 
 pass = input("Enter password: ")
-if pass == "python":
-	print("hello")
-else
-	break
+B = True
+while B:
+	if pass == "python":
+		print("hello")
+		B = False
+
